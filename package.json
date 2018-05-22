@@ -18,7 +18,11 @@
     "url": "https://github.com/kris71990/26-frontend-tooling-react/issues"
   },
   "homepage": "https://github.com/kris71990/26-frontend-tooling-react#readme",
-  "dependencies": {},
+  "dependencies": {
+    "cowsay": "^1.3.0",
+    "cowsay-browser": "^1.1.8",
+    "faker": "^4.1.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
