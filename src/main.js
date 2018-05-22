@@ -35,7 +35,7 @@ class App extends React.Component {
       <div>
         <h1> Generate Cowsay Lorem </h1>
         <pre>{ this.state.content }</pre>
-        <button onClick={ this.generateLorem }>Click me</button>
+        <button onClick = { this.generateLorem }>Click me</button>
       </div>
     );
   }
