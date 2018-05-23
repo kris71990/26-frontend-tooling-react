@@ -5,6 +5,17 @@ import cowsay from 'cowsay-browser';
 
 import './style/main.scss';
 
+class Header extends React.Component {
+  render() {
+    return (
+      <header>
+        <h1>Cowsay Lorem</h1>
+      </header>
+    );
+  }
+}
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -33,9 +44,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1> Generate Cowsay Lorem </h1>
-        <pre>{ this.state.content }</pre>
-        <button onClick={ this.generateLorem }>Click me</button>
+        <Header/>
+        <pre>{this.state.content}</pre>
+        <button onClick={this.generateLorem}>Click me</button>
       </div>
     );
   }
